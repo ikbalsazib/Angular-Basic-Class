@@ -7,8 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  name: string = 'Md Sazib';
-  age: number = 32;
+
+  names: string[] = ['Sazib', 'Sojol', 'Sobur', 'Sakib', 'Shuvo']
+
+
+  cardCount: any[] = new Array(50);
 
 
 

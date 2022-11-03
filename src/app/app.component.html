@@ -1,5 +1,13 @@
 
-<div class="card">
-  <h1>Name: {{name}}</h1>
-  <p>Age: {{age}}</p>
-</div>
+
+
+<section class="content-main">
+  <app-my-card *ngFor="let data of names; let i = index" [title]="data"></app-my-card>
+<!--  <app-my-card *ngFor="let data of cardCount; let i = index" [title]="i.toString() + ' Sazib'"></app-my-card>-->
+</section>
+
+
+
+<section class="content-main-new">
+    <app-my-card *ngFor="let data of cardCount; let i = index" [title]="i.toString()"></app-my-card>
+</section>

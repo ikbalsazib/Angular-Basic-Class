@@ -1,0 +1,25 @@
+
+// Variables
+$cardBackground: gray;
+$cardFontColor: #414141;
+$borderColor: #cccccc;
+$cardWidth: 100%;
+$cardHeight: 250px;
+
+
+
+.card {
+  width: $cardWidth;
+  height: $cardHeight;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+
+  h2 {
+    font-size: 32px;
+    color: $cardFontColor;
+  }
+
+}
+

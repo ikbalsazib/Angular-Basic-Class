@@ -1,14 +1,16 @@
-.card {
-  width: 200px;
-  height: 180px;
-  border: 1px solid red;
-  padding: 10px;
+.content-main {
+  width: 100%;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
 
-  //h1 {
-  //  color: green;
-  //}
 
-  p {
-    color: darkblue;
-  }
+.content-main-new {
+  width: 100%;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
 }
