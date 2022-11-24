@@ -6,15 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-
-
-  names: string[] = ['Sazib', 'Sojol', 'Sobur', 'Sakib', 'Shuvo']
-
-
-  cardCount: any[] = new Array(50);
-
-
-
-
-
+  title = 'angular-material';
 }

@@ -1,0 +1,25 @@
+.container {
+  width: 95%;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.example-card {
+  width: 400px;
+  margin-top: 10px;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}

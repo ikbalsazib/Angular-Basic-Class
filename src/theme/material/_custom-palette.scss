@@ -1,0 +1,118 @@
+$dark-primary-text: rgba(black, 0.87);
+$dark-secondary-text: rgba(black, 0.54);
+$dark-disabled-text: rgba(black, 0.38);
+$dark-dividers: rgba(black, 0.12);
+$dark-focused: rgba(black, 0.12);
+$light-primary-text: white;
+$light-secondary-text: rgba(white, 0.7);
+$light-disabled-text: rgba(white, 0.5);
+$light-dividers: rgba(white, 0.12);
+$light-focused: rgba(white, 0.12);
+
+
+
+
+// Primary
+$mat-soft-primary: (
+  50 : #e0f7ed,
+  100 : #b3ebd2,
+  200 : #80deb4,
+  300 : #4dd095,
+  400 : #26c67f,
+  500 : #00bc68,
+  600 : #00b660,
+  700 : #00ad55,
+  800 : #00a54b,
+  900 : #00973a,
+  A100 : #c2ffd4,
+  A200 : #8fffb1,
+  A400 : #5cff8d,
+  A700 : #42ff7c,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+// Accent
+$mat-soft-accent: (
+  50 : #f3e1f6,
+  100 : #e2b3e8,
+  200 : #cf81d9,
+  300 : #bc4eca,
+  400 : #ad28be,
+  500 : #9f02b3,
+  600 : #9702ac,
+  700 : #8d01a3,
+  800 : #83019a,
+  900 : #72018b,
+  A100 : #f0b7ff,
+  A200 : #e584ff,
+  A400 : #db51ff,
+  A700 : #d537ff,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #ffffff,
+    400 : #ffffff,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #ffffff,
+  )
+);
+
+
+
+
+// Warn
+$mat-soft-warn: (
+  50 : #f9e0e0,
+  100 : #f0b3b3,
+  200 : #e68080,
+  300 : #db4d4d,
+  400 : #d42626,
+  500 : #cc0000,
+  600 : #c70000,
+  700 : #c00000,
+  800 : #b90000,
+  900 : #ad0000,
+  A100 : #ffd7d7,
+  A200 : #ffa4a4,
+  A400 : #ff7171,
+  A700 : #ff5858,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #ffffff,
+    400 : #ffffff,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
