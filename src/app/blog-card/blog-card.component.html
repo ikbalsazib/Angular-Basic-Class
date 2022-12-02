@@ -1,0 +1,13 @@
+<mat-card class="blog-card">
+  <div class="img-thumb">
+    <img [src]="data?.image" alt="">
+  </div>
+
+  <div class="title">
+    <h2>{{data?.title}}</h2>
+  </div>
+
+  <div class="desc">
+    <p>{{data?.date | date}} Comments ({{data?.commands}})</p>
+  </div>
+</mat-card>

@@ -1,1 +1,17 @@
-<app-material-view></app-material-view>
+<section class="blog-section">
+  <div class="container">
+
+    <div class="header">
+      <h2 class="title">Latest news</h2>
+    </div> <!-- END Title -->
+
+    <div class="content">
+      <app-blog-card *ngFor="let data of blogs" [data]="data"></app-blog-card>
+    </div> <!-- END Content -->
+
+    <div class="action">
+      <button mat-stroked-button color="primary" (click)="onAddNewBlog()" >Add New Blog</button>
+    </div>
+
+  </div>
+</section>
