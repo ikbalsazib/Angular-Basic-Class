@@ -7,7 +7,8 @@ import {Blog} from './interfaces/blog.interface';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit{
-  blogs: Blog[] = []
+  blogs: Blog[] = [];
+  selectedBlog: Blog;
 
 
   ngOnInit() {
@@ -69,6 +70,10 @@ export class AppComponent implements OnInit{
         commands: 100
       },
     )
+  }
+
+  onSelectBlog(event: Blog) {
+    this.selectedBlog = event;
   }
 
 

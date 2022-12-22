@@ -1,3 +1,9 @@
+
+<section class="selected-data" *ngIf="selectedBlog">
+  <h1>{{selectedBlog?.title}}</h1>
+</section>
+
+
 <section class="blog-section">
   <div class="container">
 
@@ -6,7 +12,7 @@
     </div> <!-- END Title -->
 
     <div class="content">
-      <app-blog-card *ngFor="let data of blogs" [data]="data"></app-blog-card>
+      <app-blog-card *ngFor="let data of blogs" [data]="data" (onSelect)="onSelectBlog($event)"></app-blog-card>
     </div> <!-- END Content -->
 
     <div class="action">
